@@ -79,7 +79,7 @@ p {
     margin-top: 2rem;
 }
 
-.lista-icones {
+.socialLinks {
     display: flex;
     gap: 0.5rem;
     justify-content: center;
