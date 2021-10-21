@@ -53,21 +53,24 @@ h1 {
     margin-top: 1.5rem;
 }
 
-a {
-    align-items: center;
-    color: var(--cinza);
+.github {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    margin-top: 0.25rem;
+}
+
+a {
+    color: var(--cinza);
     font-size: 1rem;
     font-weight: 400;
-    gap: 0.75rem;
-    justify-content: center;
     line-height: 26px;
-    margin-top: 0.25rem;
     text-decoration: none;
 }
 
 a:hover {
-    font-size: 1.1rem;
+    font-size: 1.02rem;
     text-decoration: underline;
     text-decoration-color: #fff;
     color: #fff;
@@ -86,4 +89,8 @@ p {
     list-style: none;
     margin-top: 4rem;
     padding: 0;
+}
+
+.icone__instagram, .icone__youtube, .icone__facebook, .icone__twitter {
+    border-radius: 30px;
 }
